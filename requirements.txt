@@ -1,5 +1,5 @@
-numpy>=1.9.2
+numpy
 pandas>=0.19
 streamlit
-tensorflow
+tensorflow==2.4.1
 
