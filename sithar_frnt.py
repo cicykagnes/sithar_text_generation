@@ -106,7 +106,7 @@ if page == 'Generate music':
     #st.text("Use keywords to generate lyrics.For example, njan , ente , thedunnu , uyire ,")
     html_temp = """ 
         <div> 
-        <h3 style ="color:black;text-align:center">Use keywords to generate lyrics. For example, njan , ente ,chiri , thedunnu , uyire ,jeevitham ,sanjaaram , etc..</h3> 
+        <h3 style ="color:black;text-align:center">Use keywords to generate lyrics. For example, njan , ente ,chiri , thedunnu , uyire ,jeevitham ,sanjaaram , etc.. Please use the same keywords as mentioned in lower case letters or please visit the dataset to get more keywords.</h3> 
         </div> 
         """
     st.markdown(html_temp, unsafe_allow_html=True)
