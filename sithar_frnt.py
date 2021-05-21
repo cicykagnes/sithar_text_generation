@@ -43,7 +43,12 @@ if page =="Home":
         </div> 
         """
     st.markdown(html_temp, unsafe_allow_html=True)
-    st.write("**Sithar is a web app using NLP for generating lyrics in Manglish. Click on How to use the app below to try out our work.**")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.write("**| Sithar is a web app using NLP for generating lyrics in Manglish. Click on How to use the app below to try out our work. |**")
     st.text(" ")
     st.text(" ")
     st.text(" ")
