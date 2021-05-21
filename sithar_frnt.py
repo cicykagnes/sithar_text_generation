@@ -65,8 +65,8 @@ if page =="Home":
         st.markdown(html_temp, unsafe_allow_html=True)
     
 if page == 'Generate music':
-    main_bg = "text_gen_bg.jpg"
-    main_bg_ext = "jpg"
+    main_bg = "text_gen_bg.jpeg"
+    main_bg_ext = "jpeg"
 
     st.markdown(
     f"""
