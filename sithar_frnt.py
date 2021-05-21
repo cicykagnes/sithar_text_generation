@@ -2,7 +2,6 @@ import streamlit as st
 import base64
 import os
 import numpy as np
-import docx
 import re
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
