@@ -44,7 +44,7 @@ if page =="Home":
         </div> 
         """
     st.markdown(html_temp, unsafe_allow_html=True)
-    st.write("Sithar is a web app using NLP for generating lyrics in Manglish.Click on How to use the app below to try out our work.")
+    st.write("**Sithar is a web app using NLP for generating lyrics in Manglish. Click on How to use the app below to try out our work.**")
     st.text(" ")
     st.text(" ")
     st.text(" ")
@@ -59,7 +59,7 @@ if page =="Home":
         html_temp = """ 
                 <div> 
                 <h3 style ="color:black;text-align:center;">1. Go to the top left corner and click on the arrow to go to navigation menu. </h3> 
-                <h3 style ="color:black;text-align:center;">2. To generate the text go to 'Text generation' page and input the keyword in Manglish.A sequence of 20 words will be generated. </h3>
+                <h3 style ="color:black;text-align:center;">2. To generate the text go to 'Text generation' page and input the keyword in Manglish. A sequence of 20 words will be generated. </h3>
                 <h3 style ="color:black;text-align:center;">3. To know about the web page and the source code used go to 'About' page. </h3>
                 </div> 
                 """
@@ -140,10 +140,7 @@ if page == 'Generate music':
         def pred_next_word(inputs):
             temperature=1.0
             inputs=next_char
-            
-                    
             input_ids =  word2idx[inputs]
-            
             input_ids = np.array([[input_ids]], dtype=np.float32)
             predicted_logits = loaded_model.predict(input_ids)
             predicted_logits = predicted_logits[:, -1, :]
@@ -153,12 +150,9 @@ if page == 'Generate music':
             predicted_ids = tf.squeeze(predicted_ids, axis=-1)
             predicted_chars = idx2word[int(np.squeeze(np.squeeze(predicted_ids)))]
             return predicted_chars
-            
-        #pred = pred_next_word(next_char)
-            
+                 
         result = [next_char]
-        #st.write(result)
-
+        
         for n in range(20):
             next_char = pred_next_word(next_char)
             result.append(" ")
@@ -166,11 +160,7 @@ if page == 'Generate music':
 
         result = tf.strings.join(result)
         st.write(result.numpy().decode('utf-8'), '\n\n' + '_'*80)
-        
-
-
-
-    
+           
 
 if page=="About":
     col1, col2, col3 = st.beta_columns(3)
@@ -191,4 +181,4 @@ if page=="About":
         st.text(" ")
         st.markdown("""**[Source code](https://github.com/cicykagnes/sithar)**""")
         st.write("Created : 19/05/2021")
-        st.write("Last updated: 19/05/2021")
+        st.write("Last updated: 21/05/2021")
