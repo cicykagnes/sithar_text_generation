@@ -94,7 +94,7 @@ if page == 'Generate music':
 
     html_temp = """ 
         <div> 
-        <h1 style ="color:black;text-align:center;font-family:Courier New;font-weight:bold">GENERATE MUSIC</h1> 
+        <h1 style ="color:black;text-align:center;font-family:Courier New;font-weight:bold">|| GENERATE MUSIC ||</h1> 
         </div> 
         """
     st.markdown(html_temp, unsafe_allow_html=True)
