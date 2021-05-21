@@ -1,5 +1,6 @@
 numpy
-pandas
 streamlit
 tensorflow
+docx
+regex
 
