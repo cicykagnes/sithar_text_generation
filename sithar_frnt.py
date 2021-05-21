@@ -18,7 +18,7 @@ tabs = ["Home","Generate music","About"]
 page = st.sidebar.radio("Navigation",tabs)
 
 if page =="Home":
-    main_bg = "sithar_bg_home.jpeg"
+    main_bg = "text_gen_bg.jpeg"
     main_bg_ext = "jpg"
 
     st.markdown(
@@ -38,7 +38,7 @@ if page =="Home":
     )
 
     html_temp = """ 
-        <div style="border:5px red;background-color: #A9A9A9;border-radius: 100px;border-style: outset;"> 
+        <div style="border:5px black;border-style: outset;"> 
         <h1 style ="font-family:Courier New;font-weight:bold;font-size:80px;color:black;font-style:normal;text-align:center;">S I T H A R</h1> 
         </div> 
         """
@@ -65,7 +65,7 @@ if page =="Home":
         st.markdown(html_temp, unsafe_allow_html=True)
     
 if page == 'Generate music':
-    main_bg = "text_gen_bg.jpeg"
+    main_bg = "sithar_home_bg.jpeg"
     main_bg_ext = "jpeg"
 
     st.markdown(
@@ -173,6 +173,24 @@ if page == 'Generate music':
            
 
 if page=="About":
+  
+    main_bg = "about_bg.jpeg"
+    main_bg_ext = "jpeg"
+
+    st.markdown(
+    f"""
+    <style>
+    .reportview-container {{
+        background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()});
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }}
+
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
     col1, col2, col3 = st.beta_columns(3)
 
     with col1:
