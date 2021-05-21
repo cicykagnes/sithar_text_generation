@@ -92,10 +92,21 @@ if page == 'Generate music':
 
     loaded_model.summary()
 
-    st.header("Generate Music")
-    st.text("Use keywords to generate lyrics.For example, njan , ente , thedunnu , uyire ,")
-    st.text("jeevitham ,sanjaaram etc..")
-    next_char = st.text_input("Input the keyword",'')
+    html_temp = """ 
+        <div> 
+        <h1 style ="color:white;text-align:center;font-weight:bold">GENERATE MUSIC</h1> 
+        </div> 
+        """
+    st.markdown(html_temp, unsafe_allow_html=True)
+    #st.text("Use keywords to generate lyrics.For example, njan , ente , thedunnu , uyire ,")
+    html_temp = """ 
+        <div> 
+        <h3 style ="color:white;text-align:center">Use keywords to generate lyrics.For example, njan , ente , thedunnu , uyire ,jeevitham ,sanjaaram etc..</h3> 
+        </div> 
+        """
+    st.markdown(html_temp, unsafe_allow_html=True)
+    st.text("")
+    next_char = st.text_input("INPUT THE KEYWORD",'')
     if next_char != '':
         max_vocab=2101
         sequence_length = 256
