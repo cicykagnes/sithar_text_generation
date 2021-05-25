@@ -2,6 +2,12 @@
 
 
 # SITHAR
+
+Here's is the app that we created to generate text using ##*LSTM*## . We used the lyrics of the songs sung by Sithara Ramakrishnan,an Indian Playback singer . 
+
+
+
+
 The text data was created by webscrapping and uploaded in kaggle.
 The dataset that we used can be found here. https://www.kaggle.com/cicykagnes/sithara-song-generator
 
