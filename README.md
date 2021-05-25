@@ -19,7 +19,7 @@ https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
 # Team Id :  BFH/recaCcl3EQWCHkpsY/2021
 ## Contributers : 
   * Cicy K Agnes : https://www.linkedin.com/in/cicykagnes/
-  * Akthar Naveed : https://www.linkedin.com/in/akthar-naveed-v-921039201/
+  * Akthar Naveed : https://github.com/Aktharnvdv
   * Anagha Mohan : https://www.linkedin.com/in/anagha-mohan-4b21a21b4/
                   
 
