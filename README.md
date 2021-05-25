@@ -16,8 +16,7 @@ The dataset used .: https://www.kaggle.com/cicykagnes/sithara-song-generator
 
 https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
 
-# Team Id :  BFH/8606943178/2021
-
+# Team Id :  BFH/recaCcl3EQWCHkpsY/2021
 ## Contributers : 
   * Cicy K Agnes : https://www.linkedin.com/in/cicykagnes/
   * Akthar Naveed : https://www.linkedin.com/in/akthar-naveed-v-921039201/
