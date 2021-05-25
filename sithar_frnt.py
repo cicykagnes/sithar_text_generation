@@ -210,7 +210,7 @@ if page=="About":
         st.markdown("""**[Sithara song generator](https://www.kaggle.com/cicykagnes/sithara-song-generator)**""")
     
     with col3:
-        st.header("Dates and source code")
+        st.markdown("**Dates and source code**")
         st.text(" ")
         st.markdown("""**[Source code](https://github.com/cicykagnes/sithar)**""")
         st.write("Created : 19/05/2021")
