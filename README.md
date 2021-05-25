@@ -42,7 +42,7 @@ https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
 
 1. Import necessary libraries like NumPy,TensorFlow, etc…..
           
-     Libraries used :
+     ## Libraries used :
                   
                     
           numpy 1.19.5
@@ -124,7 +124,7 @@ To run the app locally in your system ,
   *  sithara_songs_data.txt
   *  text_gen_bg.jpeg
  ## To run the app locally :
- * Now run the following command in the cmd to connect to localhost:port 8501 and launch the app.
+ * Now go to the path where you saved the files and run the following command in the cmd to connect to localhost:port 8501 and launch the app.
                 
                 streamlit run sithar_frnt.py
                 
