@@ -13,7 +13,7 @@ The dataset used .: https://www.kaggle.com/cicykagnes/sithara-song-generator
 
 
 # Go to the app :
-
+## Click to try the product 
 https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
 
 # Team Id :  BFH/recaCcl3EQWCHkpsY/2021
