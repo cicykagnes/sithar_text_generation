@@ -100,3 +100,8 @@ https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
 # Walkthrough video and Code Explanation : 
 
 https://www.loom.com/share/4155ebbd27bb4939a9b55a8f9e2c6c70
+
+
+## How to use the app is described in the app home page itself.
+
+
