@@ -18,9 +18,9 @@ https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
 
 # Team Id :  BFH/recaCcl3EQWCHkpsY/2021
 ## Contributers : 
-  * Cicy K Agnes : https://www.linkedin.com/in/cicykagnes/
+  * Cicy K Agnes : https://github.com/cicykagnes
   * Akthar Naveed : https://github.com/Aktharnvdv
-  * Anagha Mohan : https://www.linkedin.com/in/anagha-mohan-4b21a21b4/
+  * Anagha Mohan : https://github.com/Anaghamohan2000
                   
 
 # Files :
