@@ -98,6 +98,6 @@ https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
      Text generation page has a text input box ,where the user can input the keyword to generate the text.
      The about page has links to the source code , the dataset and to contact the creators .
 
-
+# Walkthrough video and Code Explanation : 
 
 https://www.loom.com/share/4155ebbd27bb4939a9b55a8f9e2c6c70
