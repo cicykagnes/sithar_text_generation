@@ -1,13 +1,16 @@
+![image](https://user-images.githubusercontent.com/44546284/119443617-85cc0480-bd47-11eb-97d1-ac433eaf1dec.png)
+
+
 # SITHAR
 The text data was created by webscrapping and uploaded in kaggle.
 The dataset that we used can be found here. https://www.kaggle.com/cicykagnes/sithara-song-generator
 
 
-# CLICK BELOW TO TRY THE APP
+# Go to the app :
 
 https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
 
-
+# Team Id :
 # Files :
 1. sithar_frnt.py
              The streamlit code for the front end.
