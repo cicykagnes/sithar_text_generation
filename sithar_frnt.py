@@ -70,8 +70,8 @@ if page =="Home":
         st.markdown(html_temp, unsafe_allow_html=True)
     
 if page == 'Generate music':
-    '''
-    main_bg = "sithar_home_bg.jpeg"
+    
+    main_bg = "123.jpeg"
     main_bg_ext = "jpeg"
 
     st.markdown(
@@ -88,7 +88,7 @@ if page == 'Generate music':
     """,
     unsafe_allow_html=True
     )
-    '''
+    
     json_file = open('my_model.json', 'r')
     loaded_model_json = json_file.read()
     json_file.close()
