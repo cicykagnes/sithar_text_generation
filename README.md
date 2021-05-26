@@ -32,7 +32,7 @@ https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
              
 2. sithar_nlp.py
               Training model
-3. sithar_home_bg.jpeg
+3. 123.jpg
      about_bg.jpeg
      text_gen_bg.jpeg
               Background images of the app
@@ -120,7 +120,7 @@ To run the app locally in your system ,
   *  my_model.h5
   *  my_model.json
   *  sithar_frnt.py
-  *  sithar_home_bg.jpeg
+  *  123.jpg
   *  sithara_songs_data.txt
   *  text_gen_bg.jpeg
  ## To run the app locally :
