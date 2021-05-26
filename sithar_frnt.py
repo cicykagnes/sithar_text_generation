@@ -192,7 +192,7 @@ if page == 'Generate music':
 
 if page=="About":
   
-    main_bg = "about_bg.jpeg"
+    main_bg = "567.jpg"
     main_bg_ext = "jpeg"
 
     st.markdown(
