@@ -178,8 +178,10 @@ if page == 'Generate music':
         result = [next_char]
         if not word2idx.__contains__(next_char):
             st.write("**This keyword is not in the dataset.Try another keyword to generate an epic poem 😉 **")
-        else:        
-            for n in range(20):
+        else:
+            st.write("**How long should your song be ?**")
+            q= st.slider("Slide me to enter the length.",1,20)
+            for n in range(q):
                 next_char = pred_next_word(next_char)
                 result.append(" ")
                 result.append(next_char)
