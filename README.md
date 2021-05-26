@@ -33,8 +33,8 @@ https://share.streamlit.io/cicykagnes/sithar_text_generation/main/sithar_frnt.py
 2. sithar_nlp.py
               Training model
 3. 123.jpg
-     about_bg.jpeg
-     text_gen_bg.jpeg
+     345.jpeg
+     567.jpeg
               Background images of the app
               
 
@@ -116,13 +116,13 @@ https://www.loom.com/share/4155ebbd27bb4939a9b55a8f9e2c6c70
 To run the app locally in your system ,
  * Install the necessary modules in the system as mentioned in the requirements.txt
  * Download the files mentioned and store it in a folder
-  *  about_bg.jpeg
   *  my_model.h5
   *  my_model.json
   *  sithar_frnt.py
-  *  123.jpg
   *  sithara_songs_data.txt
-  *  text_gen_bg.jpeg
+  *  123.jpg
+  *  345.jpg
+  *  567.jpg
  ## To run the app locally :
  * Now go to the path where you saved the files and run the following command in the cmd to connect to localhost:port 8501 and launch the app.
                 
