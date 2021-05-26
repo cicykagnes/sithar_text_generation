@@ -177,7 +177,7 @@ if page == 'Generate music':
                     
         result = [next_char]
         if not word2idx.__contains__(next_char):
-            st.write("**Please enter a keyword in dataset.**")
+            st.write("**This keyword is not in the dataset.Try another keyword to generate an epic poem 😉 **")
         else:        
             for n in range(20):
                 next_char = pred_next_word(next_char)
