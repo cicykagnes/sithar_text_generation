@@ -101,14 +101,14 @@ if page == 'Generate music':
 
     html_temp = """ 
         <div> 
-        <h1 style ="color:black;text-align:center;font-family:Courier New;font-weight:bold">|| GENERATE MUSIC ||</h1> 
+        <h1 style ="color:brown;text-align:center;font-family:Courier New;font-weight:bold">|| GENERATE MUSIC ||</h1> 
         </div> 
         """
     st.markdown(html_temp, unsafe_allow_html=True)
     #st.text("Use keywords to generate lyrics.For example, njan , ente , thedunnu , uyire ,")
     html_temp = """ 
         <div> 
-        <h3 style ="color:black;text-align:center">Use keywords to generate lyrics. For example, njan , ente ,chiri , thedunnu , uyire ,jeevitham ,sanjaaram , etc.. Please use the same keywords as mentioned in lower case letters or please visit the dataset to get more keywords.</h3> 
+        <h3 style ="color:brown;text-align:center">Use keywords to generate lyrics. For example, njan , ente ,chiri , thedunnu , uyire ,jeevitham ,sanjaaram , etc.. Please use the same keywords as mentioned in lower case letters or please visit the dataset to get more keywords.</h3> 
         </div> 
         """
     st.markdown(html_temp, unsafe_allow_html=True)
