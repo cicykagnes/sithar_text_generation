@@ -18,7 +18,7 @@ tabs = ["Home","Generate music","About"]
 page = st.sidebar.radio("Navigation",tabs)
 
 if page =="Home":
-    main_bg = "text_gen_bg.jpeg"
+    main_bg = "345.jpg"
     main_bg_ext = "jpg"
 
     st.markdown(
