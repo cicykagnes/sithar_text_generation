@@ -54,7 +54,7 @@ if page =="Home":
     st.text(" ")
     st.text(" ")
     st.text(" ")
-    st.text("🤭 Sithar sure will make you laugh with the variety poems it writes. 🤭")
+    st.markdown("**🤭 Sithar sure will make you laugh with the variety poems it writes. 🤭**")
     st.text(" ")
     st.text(" ")
     st.text(" ")
